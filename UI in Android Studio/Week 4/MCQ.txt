@@ -1,0 +1,384 @@
+Your grade: 80%
+Your latest: 80%•
+Your highest: 80%•
+To pass you need at least 80%. We keep your highest score.
+1.
+Question 1
+What is a Theme composed of?
+
+1 / 1 point
+
+A collection of views
+
+
+
+A collection of attributes 
+
+
+
+A collection of composables
+
+
+Correct
+Correct! Theme is represented by attributes such as height and color.
+
+2.
+Question 2
+.Which color is represented by the following hexadecimal value?
+
+0xFF000000
+
+1 / 1 point
+
+white 
+
+
+
+blue 
+
+
+
+gray 
+
+
+
+black 
+
+
+Correct
+Correct! This hexadecimal value represents a black color. The 0 means that it is a minimum value for each color, so 000000 means black. However, the first two FF characters represent the alpha channel where the maximum value is required to make the color fully opaque.
+
+3.
+Question 3
+Which of the following correctly creates a text composable with bold text?
+
+1 / 1 point
+
+
+123456
+Text(
+    text = “Hello World!”,
+    fontSize = 30.sp,
+    font = Bold
+)
+
+
+
+
+
+123456
+Text(
+    text = “Hello World!”,
+    fontSize = 30.sp,
+    fontWeight = Bold
+)
+
+
+
+
+
+12345
+Text(
+    fontSize = 30.sp,
+    fontWeight = Bold
+)
+
+
+
+
+
+123456
+Text(
+    text = “Hello World!”,
+    fontSize = 30.sp,
+    weight = Bold
+)
+
+
+
+Correct
+Correct! A Text composable accepts an optional parameter of fontWeight for styling the text. 
+
+4.
+Question 4
+Which of the following correctly creates a text composable with underlined text?
+
+1 / 1 point
+
+
+12345678
+Text(
+    style = TextStyle(
+        text = “Hello World!”,
+        fontSize = 25.sp,
+        textDecoration = TextDecoration.Underline
+    )
+)
+
+
+
+
+
+
+1234
+Text(
+    style = TextDecoration.Underline
+)
+
+
+
+
+
+Text(
+
+
+1234567
+    style = TextStyle(
+        text = “Hello World!”,
+        fontSize = 25.sp,
+        textDecoration = underline
+    )
+)
+
+
+
+
+
+12345678
+Text(
+    style = TextStyle(
+        text = “Hello World!”,
+        fontSize = 25.sp,
+        decoration = TextDecoration.Underline
+ )
+)
+
+
+
+Correct
+Correct! The text-decoration property can be used to apply underline text. The TextDecoration combine function enables the application of multiple decorations. 
+
+5.
+Question 5
+Which of the following correctly adds Text composable as the content for a Surface?
+
+1 / 1 point
+
+123456789
+Surface(
+{
+    Text(
+            text = “Hello World”,
+            fontSize = 30.sp      
+            )  
+}
+) 
+
+
+
+
+
+12345678
+Surface(
+    modifier = Modifier
+        .fillMaxSize()
+    text = “Hello World”,
+    fontSize = 30.sp
+)         
+}
+
+
+
+
+12345678910
+Text(
+    modifier = Modifier
+        .fillMaxSize()
+) {
+    Surface(
+            text = “Hello World”,
+            fontSize = 30.sp      
+            )  
+}
+
+
+
+
+
+12345678910
+Surface(
+    modifier = Modifier
+        .fillMaxSize()
+) {
+    Text(
+            text = “Hello World”,
+            fontSize = 30.sp      
+            )  
+}
+
+
+
+Correct
+Correct! Like layout composables, the Surface composable can have content such as the Text composable.. 
+
+6.
+Question 6
+
+Which of the following is an optional modifier that can be used to specify the size of text within a Text composable?
+
+1 / 1 point
+
+fontColor
+
+
+
+
+fontWeight
+
+
+
+
+text
+
+
+
+
+fontSize
+
+
+Correct
+Correct! The Text composable allows you to provide font size.
+
+7.
+Question 7
+Is it possible to change the shape of Surface corners?
+
+1 / 1 point
+
+Yes 
+
+
+
+No 
+
+
+Correct
+Correct! By default, the Surface has a rectangular shape. You can modify the shape of the Surface by adding the shape parameter.
+
+8.
+Question 8
+Which of the following is one of the most common APIs provided by Jetpack Compose to enable various animations?
+
+0 / 1 point
+
+appearance API
+
+
+
+animation API
+
+
+
+animated visibility API
+
+
+
+visibility API
+
+
+Incorrect
+Not quite. Please review the video 
+Animated visibility
+.
+
+9.
+Question 9
+Which of the following will make the text “Hello World” slide up to disappear and slide down to disappear? 
+
+0 / 1 point
+
+
+123456789101112
+var visible by remember {
+    mutableStateOf(true)
+}
+Column  {
+    AnimatedVisibility(visible)  {
+        Text(text = “Hello World”)
+    }
+    Button(onClick = {  visible = !visible  })  {
+        Text(“Button  “)
+    }
+
+
+
+
+12345678910111213
+var visible by remember {
+    mutableStateOf(true)
+}
+Column {
+    if  (visible)  {
+  
+        Text(text = “Hello World”)
+    }
+    Button(onClick = {  visible = !visible  })  {
+        Text(“Button“)
+
+
+
+
+12345678910
+var visible by remember {
+    mutableStateOf(true)
+}
+Column  {
+    AnimatedVisibility(visible) {
+        Text(text = “Hello World”)
+    }
+    Button(onClick = Text(“Button“))            
+}
+
+
+
+
+123456789
+var visible by remember {
+    mutableStateOf(true)
+}
+Column {
+    if  (visible)  {
+        Text(text = “Hello World”)
+    }
+    Button(onClick = Text(“Button  “)) 
+
+
+
+Incorrect
+Not quite. Please review the video 
+Animated visibility
+.
+
+10.
+Question 10
+Which of the following parameters is used to control how long a given transition will last?
+
+1 / 1 point
+
+enter
+
+
+
+exit
+
+
+
+AnimatedVisibilty
+
+
+
+animationSpec
+
+
+Correct
+Correct! The animation duration is provided in milliseconds. 

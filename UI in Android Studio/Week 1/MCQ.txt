@@ -1,0 +1,245 @@
+Your grade: 97.50%
+Your latest: 97.50%•
+Your highest: 97.50%•
+To pass you need at least 80%. We keep your highest score.
+1.
+Question 1
+True or False: The nesting of composables in a UI can best be represented with a tree structure. 
+
+1 / 1 point
+
+True
+
+
+
+False
+
+
+Correct
+That’s correct! A tree or hierarchy structure can represent the nesting of composables in a UI with the topmost composable in such a structure being called the root of the tree.
+
+2.
+Question 2
+What is an Activity in Android UI Development? 
+
+1 / 1 point
+
+A function that performs a calculation. 
+
+
+
+A resource file that stores application data. 
+
+
+
+A component that allows users to interact with the app UI.
+
+
+
+A special type of ViewGroup container. 
+
+
+Correct
+That’s correct. An Activity is the app component that contains the user interface and represents the app screen.
+
+3.
+Question 3
+Which of the following is true about XML documents?
+
+1 / 1 point
+
+All XML documents are hierarchical. 
+
+
+
+XML files are easy to maintain. 
+
+
+
+XML files contain composable functions.
+
+
+
+XML documents are made of activities
+
+
+Correct
+That's correct! XML documents are hierarchical which makes them useful for representing nested UI elements.
+
+4.
+Question 4
+Which of the following states are part of the Activity Lifecycle in Android UI Development? 
+
+Select three that apply.
+
+1 / 1 point
+
+Resumed
+
+
+Correct
+That's correct! When an Activity gains focus and is ready for interaction, it is in the resumed state. 
+
+
+Deleted
+
+
+
+Created
+
+
+Correct
+That's correct! When an application launches, an Activity is created and is in the created state.
+
+
+Started
+
+
+Correct
+That's correct! Once an Activity is visible on the screen it is in the started state. 
+
+5.
+Question 5
+Which of the following view groups has an src property?
+
+1 / 1 point
+
+TextView
+
+
+
+ProgressBar
+
+
+
+ImageView
+
+
+
+Button 
+
+
+Correct
+That's correct! Only the ImageView has an src attribute.
+
+6.
+Question 6
+Which of the following is the approach to building a UI Jetpack Compose is based on?
+
+1 / 1 point
+
+imperative
+
+
+
+declarative 
+
+
+
+hierarchical
+
+
+
+object oriented
+
+
+Correct
+Correct! The declarative approach focuses on the what rather than the how.
+
+7.
+Question 7
+Which of the following is used to tell Jetpack Compose Preview how to generate a preview of the design you are working on?
+
+1 / 1 point
+
+@composable
+
+
+
+@Preview
+
+
+
+Compose Preview
+
+
+
+./gradlew composePreview
+
+
+Correct
+That's correct! The @Preview annotation has three optional parameters: name, showDecoration and group.
+
+8.
+Question 8
+Which of the following is an Invisible UI element that acts as a container to other views?
+
+1 / 1 point
+
+View
+
+
+
+View group
+
+
+
+A tree
+
+
+
+Layout
+
+
+Correct
+That's correct! View groups are a special kind of view that do not have an appearance of their own.
+
+9.
+Question 9
+When you are specifying the size of a text element on an Android UI, you can use the sp unit of measurement. This term is shorthand for?
+
+1 / 1 point
+
+Pixel Point
+
+
+
+Scale-independent pixel.
+
+
+
+Scale-dependent pixel
+
+
+Correct
+Scale-independent pixel is correct. It is similar to dp and often used to specify font sizes.
+
+10.
+Question 10
+Which of the following are most commonly used simple layouts? Select all that apply.
+
+0.75 / 1 point
+
+Image
+
+
+
+Box
+
+
+Correct
+That’s correct! This layout places composables on top of one another. 
+
+
+Row
+
+
+Correct
+That’s correct! This layout places composables horizontally. 
+
+
+Column
+
+
+This should not be selected
+That’s correct! This layout places composables vertically. 

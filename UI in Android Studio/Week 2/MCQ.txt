@@ -1,0 +1,251 @@
+Your grade: 80%
+Your latest: 60%•
+Your highest: 80%•
+To pass you need at least 80%. We keep your highest score.
+1.
+Question 1
+When chaining modifiers, which order are they applied in?
+
+0 / 1 point
+
+top to bottom
+
+
+
+left to right
+
+
+
+right to left
+
+
+
+alphabetical order
+
+
+Incorrect
+Not quite. Please review the video 
+Modifiers
+.
+
+2.
+Question 2
+How is the body of a scaffold defined?
+
+1 / 1 point
+
+as a trailing lambda
+
+
+
+as predefined properties
+
+
+
+using modifiers
+
+
+
+with a composable function
+
+
+Correct
+That's correct! A trailing lambda is a Kotlin convention when the last parameter of a function is a lambda.
+
+3.
+Question 3
+Which of the following is a collection of components which carry standard and reusable UI elements?
+
+1 / 1 point
+
+a scaffold
+
+
+
+a composable
+
+
+
+a UI pattern
+
+
+
+a design system
+
+
+Correct
+That's correct! A design system exposes patterns, themes and examples of UI designs and layouts at various levels.
+
+4.
+Question 4
+Which of the following is the special object Compose uses to hold the value of a state?
+
+0 / 1 point
+
+MutableState
+
+
+
+State
+
+
+
+remember 
+
+
+
+MutableStateOf
+
+
+Incorrect
+Not quite. Please review the video 
+Declaring state
+.
+
+5.
+Question 5
+Which of the following is the correct programming term for a user action?
+
+1 / 1 point
+
+callback
+
+
+
+tapping
+
+
+
+action
+
+
+
+event
+
+
+Correct
+That's correct! A user action is called an event and the response to an event is called handling the event. 
+
+6.
+Question 6
+Which of the following is a UI pattern that provides a side-panel for navigating between different parts of the application?
+
+1 / 1 point
+
+BottomSheetScaffold
+
+
+
+Backdrop Scaffold
+
+
+
+NavigationBar
+
+
+
+Navigation Drawer Scaffold
+
+
+Correct
+That's correct! The Navigation Drawer Scaffold is commonly used to provide access to an application’s top-level navigation items.
+
+7.
+Question 7
+What are the individual UI elements called in Material Design?
+
+0 / 1 point
+
+components
+
+
+
+composables
+
+
+
+Material Components
+
+
+
+Design Elements
+
+
+Incorrect
+Not quite. Please review the reading 
+Scaffold
+.
+
+8.
+Question 8
+What of the following is a parameter that accepts composable content?
+
+0 / 1 point
+
+composables
+
+
+
+slots
+
+
+
+modifiers
+
+
+
+lambdas
+
+
+Incorrect
+Not quite. Please review the reading 
+Material components
+.
+
+9.
+Question 9
+Which of the following are customizable layouts that provide support to add various UI structures and components?
+
+1 / 1 point
+
+UI patterns
+
+
+
+Composables
+
+
+
+Scaffolds
+
+
+
+Slots
+
+
+Correct
+That's correct! Scaffolds include app bars, snackbars, the navigation drawer and floating action buttons.
+
+10.
+Question 10
+Which of the following UI patterns would be best suited to carry the name of the app and some buttons relevant to the current screen?
+
+1 / 1 point
+
+snackbar
+
+
+
+floating action buttons
+
+
+
+a top app bar
+
+
+
+a navigation drawer
+
+
+Correct
+Correct! A top app bar is usually used as a composite component that consists of several UI elements.
